@@ -1,0 +1,20 @@
+video-ai/
+│
+├── backend/
+│   ├── main.py
+│   ├── video_processor.py
+│   ├── clip_selector.py
+│   ├── subtitles.py
+│
+├── frontend/
+│   ├── index.html
+│   ├── style.css
+│   ├── app.js
+│
+├── models/
+│   └── whisper/
+│
+├── outputs/
+│   └── clips/
+│
+└── README.md

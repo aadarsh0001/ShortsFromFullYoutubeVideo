@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Video Processing App</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Video Processing Application</h1>
+
+    <section class="card">
+      <h2>Process a Local Video</h2>
+      <div class="row">
+        <input type="file" id="videoUpload" accept="video/*"/>
+        <button id="uploadButton" type="button">Upload & Process</button>
+      </div>
+      <p id="uploadStatus" class="status"></p>
+    </section>
+
+    <section class="card">
+      <h2>Process from YouTube URL</h2>
+      <div class="row">
+        <input type="url" id="videoUrl" placeholder="https://www.youtube.com/watch?v=..."/>
+        <button id="processUrlButton" type="button">Process URL</button>
+      </div>
+      <p id="urlStatus" class="status"></p>
+    </section>
+
+    <section class="card">
+      <h2>Options</h2>
+      <div class="row">
+        <label><input type="checkbox" id="subtitlesToggle" checked/> Subtitles</label>
+        <label>Aspect Ratio
+          <select id="aspectRatio">
+            <option value="16:9">16:9</option>
+            <option value="9:16">9:16</option>
+          </select>
+        </label>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Preview</h2>
+      <div id="clips" class="clips"></div>
+    </section>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

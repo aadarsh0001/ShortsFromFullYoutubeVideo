@@ -1,0 +1,229 @@
+🎯 FINAL GOAL (What You’re Building)
+
+A local desktop/web app that:
+
+Takes a long video
+
+Finds important moments
+
+Cuts them into short clips
+
+Adds subtitles
+
+Auto-formats for Shorts / Reels / TikTok
+
+Lets you manually tweak clips
+
+Basically: Your own Vizard AI
+
+🧠 TECH STACK (100% FREE)
+Core Tools
+
+VS Code (you already have it ✅)
+
+Python (main AI + video logic)
+
+FFmpeg (video cutting & processing)
+
+Whisper (OpenAI open-source) – subtitles & transcription
+
+PyTorch – AI models
+
+React OR simple HTML/CSS/JS – frontend
+
+FastAPI – backend API
+
+All free. No paid license.
+
+🛣️ FULL ROADMAP (STEP BY STEP)
+🔹 PHASE 1: Foundations (Must Do First)
+1️⃣ Install Essentials
+
+You need:
+
+Python 3.10+
+
+FFmpeg
+
+Git
+
+Why?
+
+Python = AI brain
+
+FFmpeg = video cutting
+
+Git = version control (VERY important)
+
+2️⃣ Learn These Basics (No skipping)
+
+You don’t need to be an expert:
+
+Python basics
+
+How FFmpeg cuts videos
+
+How AI models are loaded (PyTorch)
+
+Basic frontend (buttons, file upload)
+
+⏱️ Time: ~1–2 weeks
+
+🔹 PHASE 2: Core Video Engine
+3️⃣ Video Upload & Processing
+
+Build a script that:
+
+Takes a video file
+
+Extracts audio
+
+Saves metadata (duration, fps)
+
+Tools:
+
+FFmpeg
+
+Python subprocess
+
+This is your video pipeline.
+
+4️⃣ Speech-to-Text (Subtitles)
+
+Use:
+
+Whisper (open-source)
+
+What it gives you:
+
+Full transcript
+
+Timestamps per sentence
+
+Language detection
+
+This is the brain of your app.
+
+🔹 PHASE 3: AI That Finds “Good Moments”
+5️⃣ Highlight Detection (Very Important)
+
+You’ll detect clip-worthy moments using:
+
+Sentence length
+
+Speech energy
+
+Keyword importance
+
+Silence gaps
+
+Emotion score (optional)
+
+Simple logic example:
+
+Long pause → clip boundary
+
+High energy speech → highlight
+
+Keywords like “important”, “best”, “top” → priority
+
+You DON’T need advanced AI at first.
+
+6️⃣ Clip Generator
+
+Automatically:
+
+Select timestamps
+
+Cut 15–60 sec clips
+
+Export multiple clips
+
+FFmpeg does all the cutting.
+
+🔹 PHASE 4: Vizard-Like Features
+7️⃣ Auto Subtitles on Video
+
+Burn subtitles into video
+
+Style them (font, size, color)
+
+Optional:
+
+Animated subtitles later
+
+8️⃣ Auto Resize (Shorts / Reels)
+
+Use FFmpeg to:
+
+Convert landscape → vertical (9:16)
+
+Auto-center speaker
+
+Blur background if needed
+
+9️⃣ Speaker Detection (Advanced but Free)
+
+Use face detection models
+
+Track speaker position
+
+Crop video dynamically
+
+This is how Vizard auto-frames speakers.
+
+🔹 PHASE 5: User Interface
+🔟 Simple UI (Start Small)
+
+Options:
+
+Local web app (best)
+
+Desktop app (later)
+
+Features:
+
+Upload video
+
+Preview clips
+
+Download clips
+
+Toggle subtitles
+
+Choose aspect ratio
+
+Don’t overdesign. Simple works.
+
+🔹 PHASE 6: Quality & Automation
+1️⃣1️⃣ Smart Clip Ranking
+
+Rank clips by:
+
+Engagement score
+
+Energy
+
+Length
+
+Keyword density
+
+Show “Top Clips” first.
+
+1️⃣2️⃣ Batch Processing
+
+Let it:
+
+Process overnight
+
+Generate 20–50 clips automatically
+
+🔹 PHASE 7: Optimization (Optional but Powerful)
+
+GPU acceleration (if you have one)
+
+Faster Whisper models
+
+Cache transcripts
+
+Background processing
