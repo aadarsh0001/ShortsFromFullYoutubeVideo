@@ -1,0 +1,13 @@
+# Auto text normalization to LF in repo; convert to CRLF on checkout on Windows
+* text=auto eol=lf
+
+# Keep these as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.mp4 binary
+*.m4a binary
+*.zip binary
+*.7z binary
+*.exe binary
