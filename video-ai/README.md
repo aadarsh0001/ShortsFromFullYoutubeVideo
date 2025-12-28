@@ -48,6 +48,7 @@ The project is organized into several directories and files:
 2. **Backend Setup**:
    - Navigate to the `backend` directory.
    - Install the required dependencies:
+   
      ```
      pip install -r requirements.txt
      ```
@@ -62,6 +63,7 @@ The project is organized into several directories and files:
 ## How to create requirement.txt
 - This is just for knowladge purpuse.
 - Run this command in system path or Virtual Environment, according to your need:
+
     ```
     pip freeze > requirements.txt
     ```
